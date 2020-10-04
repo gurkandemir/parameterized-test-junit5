@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="iyzi-snapshot-central" />
+      <option name="name" value="iyzi-snapshot-central" />
+      <option name="url" value="https://corp.iyzico.net/artifactory/libs-snapshot" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="iyzi-release-central-ext" />
+      <option name="name" value="iyzico External Releases" />
+      <option name="url" value="https://corp.iyzico.net/artifactory/ext-release-local" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="iyzi-release-central-local" />
+      <option name="name" value="iyzico Local Releases" />
+      <option name="url" value="https://corp.iyzico.net/artifactory/libs-release-local" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven-central-releases" />
+      <option name="name" value="Maven Central Releases" />
+      <option name="url" value="http://repo1.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="iyzi-release-central" />
+      <option name="name" value="iyzico Releases" />
+      <option name="url" value="https://corp.iyzico.net/artifactory/libs-release" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="iyzi-snapshot-central-local" />
+      <option name="name" value="iyzi-snapshot-central-local" />
+      <option name="url" value="https://corp.iyzico.net/artifactory/libs-snapshot-local" />
+    </remote-repository>
+  </component>
+</project>
