@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -35,5 +36,17 @@ class NumberCheckerParameterizedTest {
         String response = numberChecker.checkNumber(input);
 
         assertEquals("ZERO", response);
+    }
+
+    @ParameterizedTest
+    @CsvSource(value = {
+            "1, POSITIVE",
+            "-1, NEGATIVE",
+            "0, ZERO"
+    })
+    public void should_check_numbers_csv_source(int input, String expected) {
+        String response = numberChecker.checkNumber(input);
+
+        assertEquals(expected, response);
     }
 }
