@@ -1,7 +1,7 @@
 # Parameterized Testing using Java and JUnit5
 Code sample for parameterized test using JUnit5 and Java.
 
-![1_0BGdehDO_EXsAffpoObzlA](https://user-images.githubusercontent.com/36932896/95011849-6bb8a700-063c-11eb-89c1-97bb502710ce.jpeg)
+![Screen Shot 2020-10-16 at 4 45 35 PM](https://user-images.githubusercontent.com/36932896/96310056-3e420500-100f-11eb-9771-8fd745d79580.png)
 
 In this project, I am aimed to write some tests for the below method. It is a simple method which checks number and return whether it is **POSITIVE, NEGATIVE, ZERO**
 ```
